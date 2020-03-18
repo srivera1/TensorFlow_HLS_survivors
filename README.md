@@ -19,39 +19,37 @@ For every model, there is an include/ folder, which contains headers files. Ther
 
 ## Getting Started
 
-Until now, the models uploaded have one or two inputs of 32x32 floats and 100 outputs. The operations are performed with floats of 32 bit in the digital HW. The layers of the models are of the types "GaussianNoise", "Dropout", "Activation", "Dense", "Flatten", "Concatenate", "MaxPooling2D", "Conv2D" and "InputLayer". Since "GaussianNoise", "Dropout" layers are only used for training purposes, they are not included in the HW.
+<strike>Until now, the models uploaded have one or two inputs of 32x32 floats and 100 outputs.</strike> The operations are performed with floats of 32 bit in the digital HW. The layers of the models are of the types "GaussianNoise", "Dropout", "Activation", "Dense", "Flatten", "Concatenate", "MaxPooling2D", "Conv2D" and "InputLayer". Since "GaussianNoise", "Dropout" layers are only used for training purposes, they are not included in the HW.
 
 The IPs have a few digital ports. The most important being the control port (AXI4-Lite) and the data port maxi_commns (AXI4 master). 
 
 ### Prerequisites
 
-With python load and train the Keras model with your datasheet:
+1) With python load and train the Keras model with your datasheet:
 
 ```
 model = load_model("myModel.h5")
 history = model.fit(x_train, y_train, batch_size=batch_size,
     epochs=epochs, verbose=1, validation_data=(x_test, y_test))
 ```
-With Vivado:
-TODO: explain how to create the project, import NN IP, connect buses, configure addreses
-
-
+2) With Vivado:
+    - Create the project
+    - Import the Neural Network IP
+    - Connect buses
+    - Configure addreses
+    - Synthetize
 
 ### Using
-TODO: explain how to
- - Load the bitstream
- - Write the driver
- - Execute the driver
 
-```
-TODO: example
-```
-
-
+Examples:
+ - [Keras model implementation and training](https://github.com/srivera1/TensorFlow_HLS_survivors/blob/master/arrythmia/clasificador_arritmia_version_aumentada_v0.ipynb)
+ - [Vivado project to include a Neural Network](https://github.com/srivera1/TensorFlow_HLS_survivors/blob/master/arrythmia/arrythmia_design_1.pdf)
+ - [User Space App to configure the NN](https://github.com/srivera1/TensorFlow_HLS_survivors/blob/master/arrythmia/nn_model_linux_driver.c)
+ - [No driver, no DMA, PYNQ framework Neural Network accesing](https://github.com/srivera1/TensorFlow_HLS_survivors/blob/master/arrythmia/arrythmia_PYNQ_v1.ipynb)
 
 ## Running the tests
 
-Compare the output of the digital circuit against the calculated values in python (given in the headers at include/). If the last layer has a softmax activation matrix, the value of the output layer will not match the value in the header; it has to be normalized.
+Compare the output of the digital circuit against the calculated values in python (given in the headers at include/). [If the last layer has a softmax activation matrix](https://github.com/srivera1/TensorFlow_HLS_survivors/blob/master/arrythmia/arrythmia_PYNQ_v1.ipynb), the value of the output layer will not match the value in the header; it has to be normalized.
 
 
 ## Authors
