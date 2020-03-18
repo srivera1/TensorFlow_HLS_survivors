@@ -1,6 +1,6 @@
 # Hardware implementations of Neural Networks (Zynq-7020)
 
-This repo contains a library of neural network models and their hardware description. The models are Keras model files (.h5) and the digital HW implementation are compressed VHDL files as IPs (Intellectual Property).
+This repo contains a collection of digital hardware as [IP cores](https://en.wikipedia.org/wiki/Semiconductor_intellectual_property_core) that perform [neural computations](https://en.wikipedia.org/wiki/Neural_computation). These IP cores have been generated with [HLS](https://en.wikipedia.org/wiki/High-level_synthesis) technics and are based on [Keras](https://en.wikipedia.org/wiki/Keras) generated neural networks.
 
 For every model, there is an include/ folder, which contains headers files. There is a header for each of the layers, weights, and biases of the model as well as an input/s sample. These files have been used to verify the HW implementations.
 <table>
@@ -37,7 +37,7 @@ history = model.fit(x_train, y_train, batch_size=batch_size,
     - Import the Neural Network IP
     - Connect buses
     - Configure addreses
-    - Synthetize
+    - Synthesize
 
 ### Using
 
