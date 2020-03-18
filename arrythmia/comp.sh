@@ -1,0 +1,1 @@
+rm nn_user_space_app ; gcc -Wall -o nn_user_space_app nn_model_linux_driver.c -lm
