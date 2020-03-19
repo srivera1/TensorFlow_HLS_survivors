@@ -6,10 +6,10 @@ For every model, there is an include/ folder, which contains headers files. Ther
 <table>
     <thead>
     <tr>
-    <a href="https://github.com/srivera1/TensorFlow_HLS_survivors/raw/master/model_53942_789635"><img align="left" src="https://github.com/srivera1/TensorFlow_HLS_survivors/raw/master/model_53942_789635/model_53942_789635.png" align="left" height="430" width=auto border="10" ></a>
-    <a href="https://github.com/srivera1/TensorFlow_HLS_survivors/raw/master/model_10543_138445"><img align="left" src="https://github.com/srivera1/TensorFlow_HLS_survivors/raw/master/model_10543_138445/model_10543_138445.png" align="left" height="430" width=auto border="10" ></a>
-    <a href="https://github.com/srivera1/TensorFlow_HLS_survivors/raw/master/model_33755_160548"><img align="left" src="https://github.com/srivera1/TensorFlow_HLS_survivors/raw/master/model_33755_160548/model_33755_160548.png" align="left" height="430" width=auto border="10" ></a>
-    <a href="https://github.com/srivera1/TensorFlow_HLS_survivors/raw/master/model_46585_660725"><img align="left" src="https://github.com/srivera1/TensorFlow_HLS_survivors/raw/master/model_46585_660725/model_46585_660725.png" align="left" height="430" width=auto border="10" ></a>
+    <a href="https://github.com/srivera1/TensorFlow_HLS_survivors/raw/master/model_53942_789635"><img align="left" src="https://github.com/srivera1/TensorFlow_HLS_survivors/raw/master/HLS_survivors/model_53942_789635/model_53942_789635.png" align="left" height="430" width=auto border="10" ></a>
+    <a href="https://github.com/srivera1/TensorFlow_HLS_survivors/raw/master/model_10543_138445"><img align="left" src="https://github.com/srivera1/TensorFlow_HLS_survivors/raw/master/HLS_survivors/model_10543_138445/model_10543_138445.png" align="left" height="430" width=auto border="10" ></a>
+    <a href="https://github.com/srivera1/TensorFlow_HLS_survivors/raw/master/model_33755_160548"><img align="left" src="https://github.com/srivera1/TensorFlow_HLS_survivors/raw/master/HLS_survivors/model_33755_160548/model_33755_160548.png" align="left" height="430" width=auto border="10" ></a>
+    <a href="https://github.com/srivera1/TensorFlow_HLS_survivors/raw/master/model_46585_660725"><img align="left" src="https://github.com/srivera1/TensorFlow_HLS_survivors/raw/master/HLS_survivors/model_46585_660725/model_46585_660725.png" align="left" height="430" width=auto border="10" ></a>
     </tr>
     </thead>
     <tbody>
