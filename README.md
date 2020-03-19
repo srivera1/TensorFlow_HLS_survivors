@@ -49,7 +49,7 @@ Examples:
 
 ## Running the tests
 
-Compare the output of the digital circuit against the calculated values in python (given in the headers at include/). [If the last layer has a softmax activation matrix](https://github.com/srivera1/TensorFlow_HLS_survivors/blob/master/arrythmia/arrythmia_PYNQ_v1.ipynb), the value of the output layer will not match the value in the header; it has to be normalized.
+Compare the output of the digital circuit against the calculated values in python (given in the headers at include/). [If the last layer has a softmax activation function](https://github.com/srivera1/TensorFlow_HLS_survivors/blob/master/arrythmia/arrythmia_PYNQ_v1.ipynb), the value of the output layer will not match the value in the header; it has to be normalized.
 
 
 ## Authors
